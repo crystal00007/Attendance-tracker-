@@ -45,14 +45,24 @@ Start the development server:
 ```bash
 npm run dev
 ```
+## Data Storage
+
+This application currently uses browser localStorage to save attendance data and semester settings locally on the user's device.
+
+- No backend or database is connected
+- No login/authentication system
+- Data is device/browser specific
+- Clearing browser storage will remove saved data
+
+This project was built as a frontend-focused productivity and attendance tracking application using React and TypeScript.
 
 ## Future Improvements
 
-* Firebase Authentication
-* Cloud sync support
-* Task management integration
-* Attendance prediction system
-* Mobile app version
+- Add Firebase/Supabase backend for cloud data sync
+- User authentication system
+- Cross-device synchronization
+- Export attendance reports
+- Push notifications and reminders
 
 ## Author
 
