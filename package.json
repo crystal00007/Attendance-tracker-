@@ -1,0 +1,28 @@
+{
+  "name": "timetable-input-for-attendance-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "desktop": "npm run build && electron .",
+    "rebuild-app": "npm run build && npx electron-packager . TimetableInput --platform=darwin --arch=arm64 --overwrite --out=release"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "electron": "^40.0.0",
+    "electron-packager": "^17.1.2",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}

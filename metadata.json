@@ -1,0 +1,5 @@
+{
+  "name": "Timetable Input for Attendance Tracker",
+  "description": "A responsive webpage UI for inputting a class schedule. It allows for manual entry, pasting from a table, and displays the timetable in a clean format.",
+  "requestFramePermissions": []
+}
