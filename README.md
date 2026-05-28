@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Attendance & Timetable Tracker
 
-# Run and deploy your AI Studio app
+A responsive attendance and timetable management web app built for students to organize class schedules, track attendance, monitor semester progress, and visualize attendance analytics through a clean dashboard interface.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1OXuny9JAK-_yzmfqEX---_ad44sdKzj2
+* Add and manage weekly class schedules
+* Mark classes as Present / Absent
+* Attendance percentage analytics
+* Semester date tracking
+* Weekly, monthly, and semester attendance views
+* Responsive dashboard UI
+* Quick timetable input support
+* Clean dark-themed student-focused interface
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Clone the repository:
+
+```bash
+git clone https://github.com/crystal00007/Attendance-tracker-.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd Attendance-tracker-
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+* Firebase Authentication
+* Cloud sync support
+* Task management integration
+* Attendance prediction system
+* Mobile app version
+
+## Author
+
+Shikha Maurya
+
+* Portfolio: https://crystal0007.github.io
+* GitHub: https://github.com/crystal00007
