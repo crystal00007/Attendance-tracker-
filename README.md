@@ -2,6 +2,22 @@
 
 A responsive attendance and timetable management web app built for students to organize class schedules, track attendance, monitor semester progress, and visualize attendance analytics through a clean dashboard interface.
 
+## Live Demo
+
+[Open Live App](https://attendance-tracker-nine-khaki.vercel.app/)
+
+## Screenshots
+
+Dashboard view
+<img width="1470" height="830" alt="Screenshot 2026-05-28 at 6 44 33 PM" src="https://github.com/user-attachments/assets/b6f56313-6491-440b-8c8a-1ea6f3f94470" />
+Setup classes
+<img width="1470" height="755" alt="Screenshot 2026-05-28 at 6 45 15 PM" src="https://github.com/user-attachments/assets/2d1cd12f-3cea-49f8-98c1-49254d0ad6ab" />
+Settings
+<img width="1448" height="309" alt="Screenshot 2026-05-28 at 6 45 33 PM" src="https://github.com/user-attachments/assets/2e775118-97b9-403b-b74c-5a6024664c4d" />
+
+
+
+
 ## Features
 
 * Add and manage weekly class schedules
